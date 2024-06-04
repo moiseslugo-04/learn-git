@@ -1,0 +1,27 @@
+body {
+  background-color: #000000c2;
+}
+.subjects {
+  width: 90%;
+  background-color: #ccc;
+  padding: 2px;
+  font-size: 2em;
+  border-collapse: collapse;
+  border: 2px solid orangered;
+}
+.subject {
+  display: flex;
+  background-color: #efefef;
+  border: 1px solid rebeccapurple;
+}
+.subject .name {
+  flex-grow: 1;
+}
+.subject .grade {
+  flex-basis: 20px;
+  background-color: #ddd;
+  font-weight: 900;
+}
+.subject div {
+  padding: 20px;
+}

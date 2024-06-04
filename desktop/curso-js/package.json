@@ -1,0 +1,18 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "'learn js'",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "js",
+    "javaScrip"
+  ],
+  "author": "moises lugo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

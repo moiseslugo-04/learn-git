@@ -1,0 +1,37 @@
+/**************************************
+ *** local storage / session storage ***
+ ***************************************/
+//getItem(),setItem(),removeItem(),clear()
+
+/**************************************
+ *** Drag adn Drop ***
+ ***************************************/
+//dragEnd / dragStart / drag (object)
+// dragEnter/dragOver / drop / dragLeave (zone)
+// dataTransfer.setData() dataTransfer.getData()
+
+/**************************************
+ *** navigator  ***
+ ***************************************/
+// navigator.bluetooth => / getAvailability() / requestDevice()
+// navigator.clipboard => /read() / write()  / readText() / writeText()
+// navigator.geolocation => getCurrentPosition() / watchPosition() / clearWatch()
+
+/**************************************
+ *** history
+ ***************************************/
+// back() / forward() / go() / pushState() /replaceState()
+// length /state
+
+/**************************************
+ *** FileReader
+ ***************************************/
+//readAsArrayBuffer() /  readAsBinaryString() / readAsDataURL() / readAsText()
+// readyState / result
+
+/**************************************
+ *** indexedDb
+ ***************************************/
+//upgradeneeded ,success ,error,completed
+// open(),createObjectStore()transaction(),openCursor() ,add() ,put(),delete()
+

@@ -1,0 +1,33 @@
+.chat {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #9c9c95a1;
+  padding: 12px 30px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.user {
+  width: fit-content;
+  height: fit-content;
+  padding: 9px 12px;
+  background-color: #def3f3;
+  border-radius: 10px;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+.service {
+  width: fit-content;
+  height: fit-content;
+  padding: 9px 12px;
+  background-color: #64d464;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+span {
+  font-size: 0.6em;
+  color: rgb(230, 126, 7);
+}
