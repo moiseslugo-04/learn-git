@@ -96,3 +96,17 @@ body {
   color: hsl(227, 10%, 46%);
   text-transform: uppercase;
 }
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+footer:hover {
+  color: hsl(0, 0%, 59%);
+  cursor: pointer;
+}
