@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+@font-face {
+  font-family: 'Young-Serif';
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf), format(trueType);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf), format(trueType);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url(./assets/fonts/outfit/static/Outfit-SemiBold.ttf), format(trueType);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url(./assets/fonts/outfit/static/Outfit-Bold.ttf), format(trueType);
+  font-weight: 700;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 470px;
+}
+article {
+  width: 100%;
+  padding: 30px;
+  color: hsl(30, 10%, 34%);
+  font-family: Outfit;
+  font-weight: 400;
+}
+.recipe h1 {
+  font-family: 'Young-Serif';
+  font-size: 1.9em;
+  margin-bottom: 20px;
+  color: hsl(24, 5%, 18%);
+}
+
+p {
+  margin: 15px 0;
+}
+
+.preparation_time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  margin: 10px;
+}
+.preparation_time li,
+.instructions li,
+.ingredients li {
+  align-items: center;
+  margin: 6px 0 0 30px;
+}
+.preparation_time li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation_time h2 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+
+.ingredients {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+  font-size: 1.6em;
+  color: hsl(14, 45%, 36%);
+  font-family: 'Young-Serif';
+  margin: 20px 0;
+}
+
+:is(.instructions li, .ingredients li)::marker {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+  font-size: 1.2em;
+}
+.instructions li p {
+  margin: 0;
+  margin-left: 10px;
+  text-align: justify;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td,
+th {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  border-spacing: -1px;
+  padding: 12px 0;
+}
+td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+th {
+  color: hsla(32, 10%, 34%, 0.582);
+  font-weight: 600;
+}
+.last {
+  border-bottom: none;
+}
+@media screen and (min-width: 470px) {
+  body {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: hsl(30, 54%, 90%);
+  }
+  main {
+    max-width: 470px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px;
+  }
+  .banner img {
+    border-radius: 10px;
+  }
+}
