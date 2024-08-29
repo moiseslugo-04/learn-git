@@ -1,0 +1,112 @@
+/*
+width:348px
+height:376px
+header 140px , main 144px ,footer 87px*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  position: relative;
+  font-size: 18px;
+}
+.bg1 {
+  position: absolute;
+  top: -30em;
+  left: -30em;
+  margin-bottom: auto;
+}
+.bg2 {
+  position: absolute;
+  bottom: -30em;
+  right: -30em;
+  margin-bottom: auto;
+}
+.card {
+  width: 349px;
+  height: 376px;
+  border-radius: 12px;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Kumbh-Sans';
+}
+.card .header-card {
+  width: 100%;
+  min-height: 140px;
+  background-image: url(./images/bg-pattern-card.svg);
+  position: relative;
+}
+.card .header-card img {
+  border-radius: 50%;
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  outline: 5px solid #fff;
+}
+.card .body-card {
+  width: 100%;
+  min-height: 144px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid hsla(0, 0%, 59%, 0.445);
+  padding-bottom: 30px;
+}
+.card .body-card h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.card .body-card span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+.card .body-card h2 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 1em;
+}
+.card .footer-card {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-bottom: 8px;
+}
+.card .footer-card h2 {
+  font-size: 1.3em;
+  color: hsl(229, 23%, 23%);
+}
+.card .footer-card h3 {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  text-transform: uppercase;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+footer:hover {
+  color: hsl(98, 92%, 61%);
+  cursor: pointer;
+}
